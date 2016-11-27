@@ -10,7 +10,11 @@ import dagger.Provides;
 
 /**
  * Created by User on 11/23/2016.
- */
+ *
+ * Module: Classes that are going to create the instances
+ * Every method that create an instance needs the @Provides
+ *
+ * */
 
 @Module
 public class SharedModule {
